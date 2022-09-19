@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- This website template was created by: Student's Name, Today's Date -->
+<!-- This website template was created by: Nicole Dietzenbach -->
 <html lang="en">
 
 <head>
@@ -18,13 +18,27 @@
 
 	<div id="container">
 
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+				<div id="menu-links">
+						<a href="index.html">Home</a>
+						<a href="classes.html">About US</a>
+						<a href="nutrition.html">Nutrition</a>
+						<a href="contact.html">Contact</a>
+				</div>
+
+				<a classes="menu-icon" onclick="hamburger()">
+						<div>&#9776;</div>
+				</a>
+		</nav>
+
 		<!-- Use the header area for the website name or logo -->
-		<header>
+		<header id="ffc-logo">
 			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297"></a>
 		</header>
 
-		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav>
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About Us</a></li>
@@ -138,6 +152,8 @@
 		</footer>
 
 	</div>
+
+	<script src="sscript/script.js"></script>
 
 </body>
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- This website template was created by: Student's Name, Current Date -->
+<!-- This website template was created by: Nicole Dietzenbach -->
 <html lang="en">
 <head>
 	<title>Forward Fitness Club</title>
@@ -16,39 +16,53 @@
 
 	<div id="container">
 
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+				<div id="menu-links">
+						<a href="index.html">Home</a>
+						<a href="classes.html">About US</a>
+						<a href="nutrition.html">Nutrition</a>
+						<a href="contact.html">Contact</a>
+				</div>
+
+				<a classes="menu-icon" onclick="hamburger()">
+						<div>&#9776;</div>
+				</a>
+		</nav>
+
 		<!-- Use the header area for the website name or logo -->
-		<header>
+		<header id="ffc-logo">
 			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297"></a>
 		</header>
-		
-		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav>
+
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
 			<ul>
-                <li><a href="index.html">Home</a></li> 
-                <li><a href="about.html">About Us</a></li> 
-                <li><a href="classes.html">Classes</a></li> 
-                <li><a href="nutrition.html">Nutrition</a></li> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
 		</nav>
-        
+
         <!-- Nutrition Hero Image -->
         <div id="hero">
             <img src="images/hero-veggies.jpg" alt="fresh vegetables">
         </div>
-		
+
 		<!-- Use the main area to add the main content of the webpage -->
 		<main class="grid">
-            
+
             <article>
                 <h3>Food for Thought</h3>
                 <img src="images/food-thought.jpg" alt="food for thought image" class="round">
                 <p>Good nutrition is a lifestyle, not a diet. It starts with a new way of thinking about food. Think of your body as a vehicle that uses food for fuel. Fill your tank with the right type of fuel.</p>
-                <p>Do not approach your nutrition plan as a diet plan, but rather, a lifestyle change. If you make a permanent change, you will see big results. The key to success is a daily focus on your goal.</p> 
+                <p>Do not approach your nutrition plan as a diet plan, but rather, a lifestyle change. If you make a permanent change, you will see big results. The key to success is a daily focus on your goal.</p>
                 <p>Portion your meals and track your calories. There are many free mobile apps available to help track your activity level and calories.</p>
                 <p>Control impulsive urges to buy junk food, and instead, allow yourself to one "cheat" meal a week.</p>
             </article>
-		
+
             <article>
                 <h3>What to Eat</h3>
                 <img src="images/fresh-food.jpg" alt="fresh vegetables, fruit, eggs, and nuts" class="round">
@@ -80,22 +94,24 @@
                 <h4>Instructions:</h4>
                 <p>Combine all ingredients in a plastic bag and marinate for at least an hour. Preheat oven to 350 degrees. Bake chicken for 30-35 minutes or until juices run clear. Broil on high for two minutes or until brown. Serve with a fresh side salad.</p>
             </article>
-            
+
             <aside class="tablet-desktop grid-item4">
-                <p>Did you know the average American consumes 3 lbs of sugar each week?</p> 
+                <p>Did you know the average American consumes 3 lbs of sugar each week?</p>
                 <p>Did you know that avocados are a good source of Vitamin B?</p>
                 <p>Did you know the average active adult should consume about 2,000 calories a day?</p>
             </aside>
-            
+
 		</main>
-		
+
 		<!-- Use the footer area to add webpage footer content -->
 		<footer>
 			<p>&copy; Copyright 2021. All Rights Reserved.</p>
 			<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
 		</footer>
-	
+
 	</div>
-	
+
+	<script src="sscript/script.js"></script>
+
 </body>
 </html>

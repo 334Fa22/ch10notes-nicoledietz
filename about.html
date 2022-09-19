@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- This website template was created by: Student's First Name Student's Last Name -->
+<!-- This website template was created by: Nicole Dietzenbach -->
 <html lang="en">
 
 <head>
@@ -18,13 +18,27 @@
 
 	<div id="container">
 
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+				<div id="menu-links">
+						<a href="index.html">Home</a>
+						<a href="classes.html">About US</a>
+						<a href="nutrition.html">Nutrition</a>
+						<a href="contact.html">Contact</a>
+				</div>
+
+				<a classes="menu-icon" onclick="hamburger()">
+						<div>&#9776;</div>
+				</a>
+		</nav>
+
 		<!-- Use the header area for the website name or logo -->
-		<header>
+		<header id="ffc-logo">
 			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
 		</header>
 
-		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav>
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About Us</a></li>
@@ -97,8 +111,22 @@
 					<dd>Planks build your core strength. To perform a plank, get in a push up position and rest your forearms on the floor. Hold the position as long as you can.</dd>
 
 					<dt>Mountain Climber</dt>
-					<dd>Mountain climbers are a good cardio exercise. Place your hands on the floor in a push up position, then bring one knee up to your chest and then switch as quickly as you can (as though you are climbing a mountain).</dd>
+					<dd>Mountain climbers are a good cardio exercise. Place your hands on the floor in a push up position, then bring one knee up to your chest and then switch as quickly as you can (as though you are climbing a mountain). <span class="viewex" onclick="mountain()"> View Example. </span></dd>
+
 				</dl>
+
+
+				<span class="viewex" onclick="burpees()"> View Example.</span>
+
+				<video controls id="example">
+						<scoure id-"vid-src" src="vid" type="video/mp4">
+							<track id="despsrc" src="des" kind="descriptions" srclang="en" label="English Descriptions">
+								<p>Your browser deos not support the video element. </p>
+				</video>
+
+				<video controls id="example">
+					<source id="vid-src" src="vid" type="video/mp4">
+					<track id="despsrc" src="des"
 
 				<p>For more information about how to stay active, visit the <a href="https://www.hhs.gov/fitness/be-active/index.html" target="_blank" class="external-link">U.S. Department of Health and Human Services</a>.</p>
 
@@ -113,6 +141,8 @@
 		</footer>
 
 	</div>
+
+	<script src="sscript/script.js"></script>
 
 </body>
 
